@@ -1,13 +1,13 @@
 #include "operaciones.h"
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
-
+// cambio de suma a const para que no sean modificados posteriormente
 int sumar(const a, const b) {
     return a + b;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
-
+// resta recibe dos numeros y devuelve la resta del primero menos el segundo
 int restar(int a, int b) {
     return a - b;
 }
